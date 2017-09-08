@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "application to keep track of inventory",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maike-hilda/bamazon.git"
+  },
+  "author": "Maike Scherer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maike-hilda/bamazon/issues"
+  },
+  "homepage": "https://github.com/maike-hilda/bamazon#readme",
+  "dependencies": {
+    "inquirer": "^3.2.3",
+    "request": "^2.81.0",
+    "sql": "^0.78.0"
+  }
+}
