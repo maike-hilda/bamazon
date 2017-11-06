@@ -1,16 +1,16 @@
-DROP DATABASE IF EXISTS bamazon; -- deletes tables if it exists
+DROP DATABASE IF EXISTS bamazon; 
 
-CREATE database bamazon; -- creates a DB
+CREATE database bamazon; 
 
-USE bamazon; -- connects to DB
+USE bamazon; 
 
 CREATE TABLE products (
-  item_id INT NOT NULL,
-  product_name VARCHAR(100) NULL,
-  department_name VARCHAR(100) NULL,
-  price DECIMAL NULL,
-  stock_quantity INT NULL,
-  PRIMARY KEY (item_id)
+  id int(11) auto_increment not null,
+  product_name varchar(100) not null,
+  department_name varchar(100) not null,
+  price float(11, 2) not null,
+  stock_quantity int(11) not null,
+  PRIMARY KEY (id)
 );
 
 SELECT * FROM products;
