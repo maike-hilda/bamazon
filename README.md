@@ -1,2 +1,5 @@
 # bamazon
-an application that keeps track of inventory
+A command line application in nodeJS with a SQL database that displays inventory, asks a user what and how much they want to purchase, then updates the database.
+
+![GitHub Logo](/images/productsDatabase.png)
+Format: ![Alt Text](url)
